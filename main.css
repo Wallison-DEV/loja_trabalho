@@ -1,0 +1,91 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;      /*Cuida da fonte geral da página*/
+    color:white;
+    box-sizing: border-box;    
+}
+header{
+    background-color: rgb(24, 0, 92);   /*Cuida das características do cabeçalho*/
+    justify-content: space-between;
+    display: inline;
+    max-width: 100%;
+    padding:  12px;
+    align-items: center;
+}
+.cabecalho ul li{
+    display: inline;    /*deixa os links do cabeçalho em linha*/
+    margin-right: 12px;
+}
+header{
+    display: flex;  /*deixa os itens do cabeçalho organizados de acordo com o tamanho da tela*/
+}
+h1,
+.container h2,
+header li a{
+    font-family: 'Lato', sans-serif;    /*determina a fonte do nome da loja, links e subtitulos h2*/
+}
+header li a{
+    text-decoration: none; /*remove os traços de baixo dos links*/
+}
+
+body{
+    background-color: rgb(0, 0, 0); /*muda a cor do fundo de toda a tela*/
+}
+.container img{
+    height: 150px; /*reduz o tamanho das fotos*/
+}
+.container{
+    max-width: 1260px;  /*fixa a largura da parte produtos,sobre,contatos*/
+    width:100%;
+    display: block;
+}
+ul{
+    display:flex;           /*altera o display apenas dos produtos*/
+    list-style-type: none;
+}
+#prod ul li{
+    max-width: 33%;      /*altera o tamanho dos produtos, permitindo a organização*/
+    margin-right: 20px;
+    justify-content: space-between;
+}
+button{
+    background-color: white;
+    color: black;                   /*muda as características dos botões*/
+    padding: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: blue;      /*faz o botão mudar de cor ao passar o cursor do mouse sobre ele*/
+}
+#sobre{         /*altera as caracteristicas da parte sobre nós*/
+    padding :24px;
+}
+#contatos{       
+    background-color: rgb(24, 0, 92);           /*altera a cor e dimensões da parte contatos*/
+    display: block;
+    padding: 8px 12px 12px 12px;
+}
+
+.contacts{
+    display: flex;              /*faz os itens ficarem lado a lado*/
+    justify-content: space-between;
+}
+footer{
+    background-color: rgb(24, 0, 92);       /*altera a cor e dimensões da parte direitos autorais*/
+    padding: 0 0 8px 8px;
+}
+.contacts img{
+    height: 24px;
+}
+.contacts ul{
+    display: flex;
+}
+.contacts a{
+    text-decoration: none;
+}
+.redes{
+    max-width: 35%;
+    width: 250px;
+}
+.redes li{
+    margin: 0 8px;
+}
